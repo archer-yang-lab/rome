@@ -1,0 +1,57 @@
+useDynLib(rome, .registration = TRUE)
+
+import("methods")
+import("Matrix")
+
+export(krome,
+cv.krome,
+cv2d.krome,
+predict.krome,
+
+## kernel functions
+"rbfdot",
+"laplacedot",
+"besseldot",
+"polydot",
+"tanhdot",
+"vanilladot",
+"anovadot",
+"splinedot",
+"kernelMatrix",
+"kernelMult",
+"kernelPol",
+"kernelFast",
+"as.kernelMatrix",
+"kpar"
+)
+
+importFrom("grDevices", "gray.colors")
+  importFrom("graphics", "matplot", "segments")
+  importFrom("stats", "na.omit")
+
+S3method("plot","krome")
+S3method("predict","krome")
+
+
+exportClasses("kernel", "rbfkernel", "laplacekernel",
+              "besselkernel", "tanhkernel", "polykernel","fourierkernel",
+              "vanillakernel", "anovakernel", "splinekernel",
+              "kernelMatrix","kfunction")
+
+
+export(lrome,
+cv.lrome,
+cv.hregpath,
+predict.lrome,
+predict.hregpath,
+coef.lrome,
+coef.hregpath)
+
+S3method("print","lrome")
+S3method("coef","lrome")
+S3method("coef","cv.lrome")
+S3method("plot","lrome")
+S3method("plot","cv.lrome")
+S3method("predict","lrome")
+S3method("predict","cv.lrome")
+

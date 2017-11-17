@@ -1,0 +1,39 @@
+\name{print.lrome}
+\alias{print.lrome}
+\title{print a lrome object}
+\description{
+Print a summary of the lrome path at each step along the path.
+}
+\usage{
+\method{print}{lrome}(x, digits = max(3, getOption("digits") - 3), ...)
+}
+\arguments{
+  \item{x}{fitted \code{\link{lrome}} object}
+  \item{digits}{significant digits in printout}
+  \item{\dots}{additional print arguments}
+}
+\details{
+The call that produced the \code{\link{lrome}} object is printed, followed by a two-column matrix with columns \code{Df} and \code{Lambda}. The \code{Df} column is the number of nonzero coefficients.
+}
+\value{
+a two-column matrix, the first columns is the number of nonzero coefficients and the second column is \code{Lambda}.}
+
+\author{Yi Yang, Yuwen Gu and Hui Zou\cr
+Maintainer: Yi Yang  <yiyang@umn.edu>}
+\references{
+Yang, Y. and Zou, H. (2012), "An Efficient Algorithm for Computing The HHSVM and Its Generalizations," \emph{Journal of Computational and Graphical Statistics}, 22, 396-415.\cr
+BugReport: \url{https://github.com/emeryyi/fastcox.git}\cr
+
+
+Friedman, J., Hastie, T., and Tibshirani, R. (2010), "Regularization paths for generalized
+linear models via coordinate descent," \emph{Journal of Statistical Software, 33, 1.}\cr
+\url{http://www.jstatsoft.org/v33/i01/}}
+
+\examples{
+data(FHT)
+m1 <- lrome(x=FHT$x,y=FHT$y,delta=1,lambda2=0.1)
+print(m1)
+}
+\keyword{models}
+\keyword{regression}
+

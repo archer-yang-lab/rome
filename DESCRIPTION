@@ -1,0 +1,13 @@
+Package: rome
+Title:  Robust Mean Estimation
+Version: 1.0.0
+Date: 2017-11-11
+Author: XXX
+Maintainer: Yi Yang <yi.yang6@mcgill.ca>
+Description: Robust Mean Estimation 
+License: GPL-2
+Imports: methods, Matrix
+URL: https://github.com/emeryyi/rome
+Packaged: 2017-11-11 18:53:12 UTC; yiyang
+Repository: CRAN
+Date/Publication: 2017-11-11 20:00:50
