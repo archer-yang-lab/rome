@@ -18,10 +18,7 @@ fitted \code{\link{krome}} object.
 A coefficient profile plot is produced. The x-axis is \eqn{log(\lambda)}. The y-axis is the value of fitted \eqn{\alpha}'s.
 }
 
-\author{
-Yi Yang, Teng Zhang and Hui Zou\cr
-Maintainer: Yi Yang  <yi.yang6@mcgill.ca>
-}
+
 
 \references{
 Y. Yang, T. Zhang, and H. Zou. (2017) "Flexible Expectile Regression in Reproducing Kernel Hilbert Space." Technometrics. Accepted.

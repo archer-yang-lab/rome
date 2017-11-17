@@ -28,6 +28,10 @@ predict.krome,
 importFrom("grDevices", "gray.colors")
   importFrom("graphics", "matplot", "segments")
   importFrom("stats", "na.omit")
+  importFrom("grDevices", "rainbow")
+  importFrom("graphics", "abline", "axis", "points", "text")
+  importFrom("stats", "approx", "coef", "predict")
+
 
 S3method("plot","krome")
 S3method("predict","krome")

@@ -13,7 +13,7 @@ hregpath <- function(x, y, nlam, flmin, ulam, isd,
         eps, isd, maxit, nalam = integer(1), b0 = double(nlam), 
         beta = double(pmax * nlam), ibeta = integer(pmax), nbeta = integer(nlam), 
         alam = double(nlam), npass = integer(1), jerr = integer(1), 
-        PACKAGE = "lrome")
+        PACKAGE = "rome")
     #################################################################################
     # output
     outlist <- getoutput(fit, maxit, pmax, nvars, vnames)

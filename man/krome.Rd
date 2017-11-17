@@ -62,10 +62,7 @@ An object with S3 class \code{\link{krome}}.
 		\item{jerr}{error flag, for warnings and errors, 0 if no error.}
 }
 
-\author{
-Yi Yang, Teng Zhang and Hui Zou\cr
-Maintainer: Yi Yang  <yi.yang6@mcgill.ca>
-}
+
 
 \references{
 Y. Yang, T. Zhang, and H. Zou. (2017) "Flexible Expectile Regression in Reproducing Kernel Hilbert Space." Technometrics. Accepted.

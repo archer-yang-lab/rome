@@ -40,10 +40,7 @@ list with the ingredients of the cross-validation fit.
 		\item{mm.lambda}{the optimal lambda value}
 		\item{mm.sigma}{the optimal sigma value}
 }
-\author{
-Yi Yang, Teng Zhang and Hui Zou\cr
-Maintainer: Yi Yang  <yi.yang6@mcgill.ca>
-}
+
 
 \references{
 Y. Yang, T. Zhang, and H. Zou. (2017) "Flexible Expectile Regression in Reproducing Kernel Hilbert Space." Technometrics. Accepted.

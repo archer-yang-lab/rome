@@ -5,7 +5,7 @@
 \description{Does k-fold cross-validation for lrome, produces a plot,
 and returns a value for \code{lambda}. This function is modified based on the \code{cv} function from the \code{glmnet} package.}
 \usage{
-cv.lrome(x, y, lambda, pred.loss, nfolds, foldid, delta,...)
+cv.lrome(x, y, lambda = NULL, nfolds = 5, foldid, delta=2,...)
 }
 \arguments{
 		\item{x}{\code{x} matrix as in \code{\link{lrome}}.}
@@ -18,7 +18,7 @@ cv.lrome(x, y, lambda, pred.loss, nfolds, foldid, delta,...)
 		\item{foldid}{an optional vector of values between 1 and \code{nfold}
 		identifying what fold each observation is in. If supplied,
 		\code{nfold} can be missing.}
-		\item{delta}{parameter \eqn{\delta}{delta} only used in lasso huber regression for computing margin based loss function, only available for \code{pred.loss = "loss"}.}
+		\item{delta}{parameter \eqn{\delta}{delta} used in lasso huber regression for computing huber loss function}
 		\item{\dots}{other arguments that can be passed to lrome.}
 
 }
@@ -45,7 +45,7 @@ list with the ingredients of the cross-validation fit.
 		within 1 standard error of the minimum.}
 }
 
-\author{}
+
 \references{
 Yang, Y. and Zou, H. (2012), "An Efficient Algorithm for Computing The HHSVM and Its Generalizations," \emph{Journal of Computational and Graphical Statistics}, 22, 396-415.\cr
 BugReport: \url{https://github.com/emeryyi/fastcox.git}\cr

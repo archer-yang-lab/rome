@@ -39,7 +39,7 @@ krome <- function(x, y, kern,
       nobs, as.double(y), nlam, ulam, eps, maxit, anlam = integer(1),
       npass = integer(nlam), jerr = integer(1),
       alpmat = double((nobs + 1) * nlam),
-      PACKAGE = "krome"
+      PACKAGE = "rome"
     )
 
   ################################################################################

@@ -24,10 +24,8 @@ The fitted \eqn{\alpha_0 + K * \alpha} at newx is returned as a size \code{nrow(
 \value{
 The fitted \eqn{\alpha_0 + K * \alpha} is returned as a size \code{nrow(newx)*length(lambda)} matrix. The row represents the index for observations of newx. The column represents the index for the lambda sequence.
 }
-\author{
-Yi Yang, Teng Zhang and Hui Zou\cr
-Maintainer: Yi Yang  <yi.yang6@mcgill.ca>
-}
+
+
 
 \references{
 Y. Yang, T. Zhang, and H. Zou. (2017) "Flexible Expectile Regression in Reproducing Kernel Hilbert Space." Technometrics. Accepted.

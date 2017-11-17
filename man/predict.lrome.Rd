@@ -26,8 +26,6 @@ Similar to other predict methods, this functions predicts fitted values and clas
 \details{\code{s} is the new vector at which predictions are requested. If \code{s} is not in the lambda sequence used for fitting the model, the \code{predict} function will use linear interpolation to make predictions. The new values are interpolated using a fraction of predicted values from both left and right \code{lambda} indices. }
 
 
-\author{Yi Yang, Yuwen Gu and Hui Zou\cr
-Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
 Yang, Y. and Zou, H. (2012), "An Efficient Algorithm for Computing The HHSVM and Its Generalizations," \emph{Journal of Computational and Graphical Statistics}, 22, 396-415.\cr
 BugReport: \url{https://github.com/emeryyi/fastcox.git}\cr
