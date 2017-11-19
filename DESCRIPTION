@@ -4,7 +4,7 @@ Version: 1.0.0
 Date: 2017-11-11
 Author: XXX
 Maintainer: Yi Yang <yi.yang6@mcgill.ca>
-Description: Robust Mean Estimation 
+Description: Robust Mean Estimation. Including robust lasso mean estimation, robust kernel regression and robust covariance estimation. 
 License: GPL-2
 Imports: methods, Matrix
 URL: https://github.com/emeryyi/rome

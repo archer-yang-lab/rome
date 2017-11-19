@@ -36,7 +36,6 @@ importFrom("grDevices", "gray.colors")
 S3method("plot","krome")
 S3method("predict","krome")
 
-
 exportClasses("kernel", "rbfkernel", "laplacekernel",
               "besselkernel", "tanhkernel", "polykernel","fourierkernel",
               "vanillakernel", "anovakernel", "splinekernel",
@@ -58,4 +57,5 @@ S3method("plot","lrome")
 S3method("plot","cv.lrome")
 S3method("predict","lrome")
 S3method("predict","cv.lrome")
-
+S3method(coef,hregpath)
+S3method(predict,hregpath)
